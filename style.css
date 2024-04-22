@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Sedan:ital@0;1&display=swap');
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+* {
+    font-family: 'sedan','serif';
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+.content-box{
+    box-sizing: content-box;
+}
+.border.box{
+    box-sizing: border-box;
+}
+.box{
+    width:50px ;
+    height:50px ;
+    padding: 10px;
+    border: 5px solid black;
+    margin-bottom:5px ;
+    background-color: blueviolet;
+}
+.container{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: burlywood;
+
+}
+.box{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    transition: transform 0.5 ease;
+
+}
+.top-left{
+    top:auto;
+    left: auto;
+}
+.top-right{
+    top: auto;
+    left: auto;
+
+}
+.bottom-left{
+    bottom:auto;
+    left:auto;
+
+}
+.bottom-right{
+    bottom:auto;
+    right:auto;
+
+
+}
+.centre{
+    top: auto;
+    left: auto;
+    transform: translate(-50%, -50%);
+
+}
+.centre:hover{
+    transform: scale(1.5)
+}
